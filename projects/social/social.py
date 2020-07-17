@@ -137,14 +137,3 @@ if __name__ == '__main__':
     connections = sg.get_all_social_paths(1)
     print(connections)
 
-
-# visited = []
-# queue = Queue()
-# queue.enqueue(starting_vertex)
-# while queue.size() > 0:
-#     item = queue.dequeue()
-#     if item not in visited:
-#         visited.append(item)
-#         print(item)
-#         for adj in self.vertices[item]:
-#             queue.enqueue(adj)
